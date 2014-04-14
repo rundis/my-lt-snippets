@@ -1,0 +1,28 @@
+{:mode "editor.javascript"
+ :snippets [
+            {:name "Buster TestCase"
+             :key "tc"
+             :snippet-file "testcase.snip"
+             }
+            {:name "Buster Test"
+             :key "tt"
+             :snippet-file "test.snip"
+             }
+            {:name "assert equals"
+             :key "ae"
+             :snippet "assert.equals($1, $2);$0"
+             }
+            {:name "refute equals"
+             :key "re"
+             :snippet "refute.equals($1, $2);$0"
+             }
+
+            {:name "Dummy"
+             :key "dy"
+             :snippet "console.log('hello');" }
+
+            {:name "Dummy 2"
+             :key "dy"
+             :snippet "console.log('hello2');" }
+
+            ]}
